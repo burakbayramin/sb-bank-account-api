@@ -58,6 +58,3 @@ public class Transaction {
     }
 }
 
-enum TransactionType {
-    INITIAL, TRANSFER
-}
