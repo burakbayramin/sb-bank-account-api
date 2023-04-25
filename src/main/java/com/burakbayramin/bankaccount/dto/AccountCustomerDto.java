@@ -1,9 +1,12 @@
 package com.burakbayramin.bankaccount.dto;
 
 public class AccountCustomerDto {
-    private String id;
+    public String id;
 
-    private String name;
+    public String name;
 
-    private String surname;
+    public String surname;
+
+    public AccountCustomerDto(String id, String name, String surname) {
+    }
 }

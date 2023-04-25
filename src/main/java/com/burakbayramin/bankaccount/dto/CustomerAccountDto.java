@@ -5,11 +5,11 @@ import java.time.LocalDateTime;
 import java.util.Set;
 
 public class CustomerAccountDto {
-    private String id;
+    public String id;
 
-    private BigDecimal balance;
+    public BigDecimal balance;
 
-    private LocalDateTime creationDate;
+    public LocalDateTime creationDate;
 
-    private Set<TransactionDto> transactions;
+    public Set<TransactionDto> transactions;
 }

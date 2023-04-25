@@ -1,9 +1,13 @@
 package com.burakbayramin.bankaccount.dto;
 
+import java.util.Set;
+
 public class CustomerDto {
-    private String id;
+    public String id;
 
-    private String name;
+    public String name;
 
-    private String surname;
+    public String surname;
+
+    public Set<CustomerAccountDto> accounts;
 }

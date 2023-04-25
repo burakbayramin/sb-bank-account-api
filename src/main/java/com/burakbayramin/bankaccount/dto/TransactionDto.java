@@ -6,11 +6,14 @@ import java.math.BigDecimal;
 import java.time.LocalDateTime;
 
 public class TransactionDto {
-    private String id;
+    public String id;
 
-    private TransactionType transactionType = TransactionType.INITIAL;
+    public TransactionType transactionType = TransactionType.INITIAL;
 
-    private BigDecimal amount;
+    public BigDecimal amount;
 
-    private LocalDateTime transactionDate;
+    public LocalDateTime transactionDate;
+
+    public TransactionDto(String id, LocalDateTime transactionDate, BigDecimal amount, LocalDateTime transactionDate1) {
+    }
 }
